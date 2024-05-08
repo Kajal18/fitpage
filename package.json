@@ -1,0 +1,35 @@
+{
+  "name": "node-express-mysql-crud-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinushchathurya/node-mysql-crud-app.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Dinush Chathurya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinushchathurya/node-mysql-crud-app/issues"
+  },
+  "homepage": "https://github.com/dinushchathurya/node-mysql-crud-app#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^7.2.0",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.7",
+    "request": "^2.88.2",
+    "winston": "^3.13.0",
+    "winston-express-request-logger": "^1.0.3"
+  }
+}
